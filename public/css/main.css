@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #000;
+}
+
+@media screen and (min-width:728px) {
+	.container {
+		width: 728px;
+	}
+	.post {
+		margin: 10px;
+	}
+}
+
+.top {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	padding: 15px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.top__logo {
+	height: 40px;
+}
+
+.top__logo img {
+	height: 100%;
+}
+
+.stories__container{
+	overflow-x: scroll;
+}
+
+.stories {
+	margin: 90px auto;
+	margin-bottom: 0;
+	flex: none;
+}
+
+.profile {
+	height: 70px;
+	width: 70px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.profile span {
+	
+}
+
+.profile__story {
+	height: 90px;
+	width: 90px;
+	background-color: #c1c1c1;
+	border-radius: 100%;
+}
+
+.profile__story--new {
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.stories__img {
+	width: 60px;
+	border-radius: 40px;
+}
+
+.feed {
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	width: 100%;
+}
+
+.post {
+	margin: 15px auto;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
+	max-width: 600px;
+}
+
+.post__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 20px;
+}
+
+.post__owner {
+	display: flex;
+	flex-direction: row;align-items: center;
+}
+
+.post__owner img {
+	width: 40px;
+	border-radius: 40px;
+}
+
+.post__owner h3 {
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+
+figure {
+	margin: 0 auto;
+}
+
+figure img {
+	width: 100%;
+}
+
+.post__actions {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post__actions--left a, .post__actions--right a{
+	color: #000;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.post__info {
+	font-size: small;
+}
+
+.post__info__likes {
+	display: flex;
+	align-items: center;
+	background: #f5f0f0;
+}
+
+.post__info__likes img {
+	width: 30px;
+	border-radius: 40px;
+	margin: 0 10px;
+}
+
+.post__info__likes a {
+	font-weight: bold;
+}
+
+.post__info__comments {
+	margin: 0 10px;
+}
+
+.post__info__comments a {
+	font-weight: bold;
+}
+
+.stories__container::-webkit-scrollbar {
+	display: none;
+}
+
+footer p {
+	margin-left: 10px;
+	color: #413f3f9f;
+	font-size: small;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
